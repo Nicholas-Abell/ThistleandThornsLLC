@@ -1,0 +1,34 @@
+#page{
+  overflow-x: hidden; 
+}
+.gallery-grid-wrapper {
+  display: flex !important;
+  animation: slideshow 600s linear infinite
+}
+.gallery-grid-wrapper .gallery-grid-item {
+  min-width: 50%;
+  margin-right: 5%
+}
+@keyframes slideshow {
+  0% {left: 0%};
+  100% {left: -2150%};
+}
+
+.header-nav-item:hover {
+  opacity: 70%;
+  transition: ease-in 0.2s;
+}
+MARKET:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+  box-shadow: 6px 6px;
+  color: gray;
+  border-radius: 2%;
+}
+
+sqs-svg-icon--list {
+  overflow: hidden;
+  background: red;
+  color: red;
+  border: red solid;
+}
